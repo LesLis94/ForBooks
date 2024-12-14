@@ -10,7 +10,7 @@ namespace Book.Classes
 		{
 
 			Console.WriteLine($"My name is " + Name);
-			Console.WriteLine($"My ears are " + EarSize + "inches tall");
+			Console.WriteLine($"My ears are " + EarSize + " inches tall");
 
 		}
 	}
