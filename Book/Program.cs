@@ -9,13 +9,35 @@ internal class Program
 
 
 
-
-        Elephants();
+        TestDraive(); 
+      //  Elephants();
         
     }
 
 
 
+    public static void TestDraive()
+    {
+        Random random = new Random();
+        int randomInt = random.Next();
+        Console.WriteLine(randomInt);
+
+        int zeroToNine = random.Next(10);
+        Console.WriteLine(zeroToNine);
+
+        int dieRoll = random.Next(1, 7);
+        Console.WriteLine(dieRoll);
+
+        double randomDouble = random.NextDouble();
+        Console.WriteLine(randomDouble);
+        Console.WriteLine(randomDouble * 100);
+        Console.WriteLine((float)randomDouble * 100F);
+        Console.WriteLine((decimal)randomDouble * 100M);
+
+        int zeroOrOne = random.Next(2);
+        bool coinFlip = Convert.ToBoolean(zeroOrOne);
+        Console.WriteLine(coinFlip);
+    }
 
     public static void Elephants()
     {
@@ -31,6 +53,10 @@ internal class Program
             Console.Write($"You pressed ");
             string svalue = Console.ReadLine();
 
+            /* char input = Console.ReadKey(true).KeyChar;
+            if (input == '1')
+            */
+
             short.TryParse(svalue, out short value);
             if (value == 1)
             {
@@ -40,12 +66,26 @@ internal class Program
             {
                 lucinda.WhoAml();
             }
-            else
+            else if (value == 3)
             {
                 Elephant otherElephant = lucinda;
                 lucinda = lloyd;
                 lloyd = otherElephant;
                 Console.WriteLine($"Refences have been swapped");
+            }
+            else if (value == 4)
+            {
+                lloyd = lucinda;
+                lloyd.EarSize = 4321;
+                lloyd.WhoAml();
+            }
+            else if (value == 5)
+            {
+                lucinda.SpeakTo(lloyd, $"Hi, " + lloyd.Name);
+            }
+            else
+            {
+                return;
             };
 
 
