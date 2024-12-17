@@ -44,7 +44,7 @@ internal class Program
 
         //var message = new MessageService(messageService);
         var serviceProvider = services.BuildServiceProvider();
-        var messageService = serviceProvider.GetService<MessageService>();
+        var messageService = serviceProvider.GetRequiredService<MessageService>();
 
         messageService.Notify();
 
