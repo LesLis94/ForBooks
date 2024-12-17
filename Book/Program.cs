@@ -1,6 +1,7 @@
 ﻿
 using Book.Classes;
 using Book.Interfaces;
+using Microsoft.Extensions.DependencyInjection;
 
 internal class Program
 {
@@ -20,12 +21,32 @@ internal class Program
     public static void DependecyInjection()
     {
 
-       ILogger logger = new ConsoleLogger();
+        IServiceCollection services = new ServiceCollection();
+       // var Emservice = new ServiceDescriptor(typeof(IMessageService), typeof(EmailService), ServiceLifetime.Scoped);
+        //services.Add(service);
+        services.AddScoped<IMessageService, EmailService>();
+
+        var Loggerservice = new ServiceDescriptor(typeof(ILogger), typeof(ConsoleLogger), ServiceLifetime.Scoped);
+        services.Add(Loggerservice);
+
+        var service = new ServiceDescriptor(typeof(IDataBase), typeof(PostgresDataBase), ServiceLifetime.Scoped);
+        services.Add(service);
+
+        services.AddScoped<MessageService>();
+
+        /*
+        ILogger logger = new ConsoleLogger();
        IDataBase dataBase = new PostgresDataBase(logger);
 
-       IMessageService messageService = new EmailService(logger, dataBase); 
-       var message = new MessageService(messageService);
-       message.Notify();
+       IMessageService messageService = new EmailService(logger, dataBase);
+        */
+
+
+        //var message = new MessageService(messageService);
+        var serviceProvider = services.BuildServiceProvider();
+        var messageService = serviceProvider.GetService<MessageService>();
+
+        messageService.Notify();
 
 
     }
