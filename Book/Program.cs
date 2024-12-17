@@ -1,5 +1,6 @@
 ﻿
 using Book.Classes;
+using Book.Interfaces;
 
 internal class Program
 {
@@ -8,13 +9,26 @@ internal class Program
     {
 
 
-
-        TestDraive(); 
+        DependecyInjection();
+        //TestDraive(); 
       //  Elephants();
         
     }
 
 
+
+    public static void DependecyInjection()
+    {
+
+       ILogger logger = new ConsoleLogger();
+       IDataBase dataBase = new PostgresDataBase(logger);
+
+       IMessageService messageService = new EmailService(logger, dataBase); 
+       var message = new MessageService(messageService);
+       message.Notify();
+
+
+    }
 
     public static void TestDraive()
     {

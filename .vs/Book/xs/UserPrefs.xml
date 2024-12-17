@@ -1,13 +1,17 @@
 ﻿<Properties StartupConfiguration="{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Default">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Book/Program.cs">
+    <Files>
+      <File FileName="Book/Program.cs" Line="23" Column="38" />
+      <File FileName="Book/Classes/Elephant.cs" Line="19" Column="43" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Book">
-            <Node name="Book">
-              <Node name="Program.cs" selected="True" />
+          <Node name="Book" expanded="True">
+            <Node name="Book" expanded="True">
+              <Node name="Classes" expanded="True" />
             </Node>
           </Node>
         </State>
