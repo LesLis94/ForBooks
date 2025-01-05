@@ -1,4 +1,5 @@
 ﻿
+using System.Runtime;
 using Book.Classes;
 using Book.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
@@ -10,16 +11,60 @@ internal class Program
     {
 
 
+        BigSmall();
 
-
-        MagiceGame();
+        //SwordDamageMagiceGame();
+       // MagiceGame();
 
        // DependecyInjection();
-        //TestDraive(); 
-      //  Elephants();
+       // TestDraive(); 
+       // Elephants();
         
     }
 
+    public static void BigSmall()
+    {
+        Console.WriteLine($"Welcome");
+        Console.WriteLine($"Guess numbers between 1 and {HiloGame.MAXIMUM}.");
+        HiloGame.Hint();
+
+        while (HiloGame.GetPot > 0) {
+            Console.WriteLine("Press h for higher, 1 for lower, ? to buy a hint,");
+            Console.WriteLine($"or any other key to quit with {HiloGame.GetPot}.");
+            char key = Console.ReadKey(true).KeyChar;
+            if (key == 'h') HiloGame.Guess(true);
+            else if (key == '1') HiloGame.Guess(false);
+            else if (key == '?') HiloGame.Hint();
+            else
+            {
+                return;
+            }
+        }
+        Console.WriteLine("The pot is empty. By!");
+
+    }
+
+    public static void SwordDamageMagiceGame()
+    {
+        Random random = new Random();
+        SwordDamage swordDamage = new SwordDamage();
+
+        while (true)
+        {
+            Console.Write($"0 for no magic/flaming, 1 for magic, 2 for flaming, 3 for both, anything else to quit: ");
+            var key = Console.ReadKey(false).KeyChar;
+
+            if (key != '0' && key != '1' && key != '3' && key != '2') return;
+
+            swordDamage.Roll = random.Next(1, 7) + random.Next(1, 7) + random.Next(1, 7);
+
+            
+            swordDamage.SetMagic(key == '1' || key == '3');  
+            swordDamage.SetFlaming(key == '2' || key == '3');
+
+            Console.WriteLine($"\n Rolled {swordDamage.Roll} for {swordDamage.Damage} HP \n");
+        }
+    }
 
     public static void MagiceGame()
     {
