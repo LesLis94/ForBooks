@@ -7,8 +7,24 @@
       "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\net project\\forbooks\\book\\classes\\hilogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\hilogame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\net project\\forbooks\\book\\interfaces\\idamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\interfaces\\idamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\net project\\forbooks\\book\\classes\\sworddamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\sworddamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\net project\\forbooks\\book\\classes\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\net project\\forbooks\\book\\interfaces\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\interfaces\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\net project\\forbooks\\book\\classes\\arrowdamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\arrowdamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,27 +34,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MessageService.cs",
+              "DocumentMoniker": "D:\\Net project\\ForBooks\\Book\\Classes\\MessageService.cs",
+              "RelativeDocumentMoniker": "Book\\Classes\\MessageService.cs",
+              "ToolTip": "D:\\Net project\\ForBooks\\Book\\Classes\\MessageService.cs",
+              "RelativeToolTip": "Book\\Classes\\MessageService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T12:41:41.864Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IMessageService.cs",
+              "DocumentMoniker": "D:\\Net project\\ForBooks\\Book\\Interfaces\\IMessageService.cs",
+              "RelativeDocumentMoniker": "Book\\Interfaces\\IMessageService.cs",
+              "ToolTip": "D:\\Net project\\ForBooks\\Book\\Interfaces\\IMessageService.cs",
+              "RelativeToolTip": "Book\\Interfaces\\IMessageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T12:41:26.38Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HiloGame.cs",
-              "DocumentMoniker": "D:\\Net project\\ForBooks\\Book\\Classes\\HiloGame.cs",
-              "RelativeDocumentMoniker": "Book\\Classes\\HiloGame.cs",
-              "ToolTip": "D:\\Net project\\ForBooks\\Book\\Classes\\HiloGame.cs",
-              "RelativeToolTip": "Book\\Classes\\HiloGame.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
+              "Title": "IDamage.cs",
+              "DocumentMoniker": "D:\\Net project\\ForBooks\\Book\\Interfaces\\IDamage.cs",
+              "RelativeDocumentMoniker": "Book\\Interfaces\\IDamage.cs",
+              "ToolTip": "D:\\Net project\\ForBooks\\Book\\Interfaces\\IDamage.cs",
+              "RelativeToolTip": "Book\\Interfaces\\IDamage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-05T16:05:56.655Z",
+              "WhenOpened": "2025-01-07T12:37:47.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ArrowDamage.cs",
+              "DocumentMoniker": "D:\\Net project\\ForBooks\\Book\\Classes\\ArrowDamage.cs",
+              "RelativeDocumentMoniker": "Book\\Classes\\ArrowDamage.cs",
+              "ToolTip": "D:\\Net project\\ForBooks\\Book\\Classes\\ArrowDamage.cs",
+              "RelativeToolTip": "Book\\Classes\\ArrowDamage.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAADIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T12:06:52.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SwordDamage.cs",
+              "DocumentMoniker": "D:\\Net project\\ForBooks\\Book\\Classes\\SwordDamage.cs",
+              "RelativeDocumentMoniker": "Book\\Classes\\SwordDamage.cs",
+              "ToolTip": "D:\\Net project\\ForBooks\\Book\\Classes\\SwordDamage.cs",
+              "RelativeToolTip": "Book\\Classes\\SwordDamage.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T10:31:08.353Z",
               "EditorCaption": ""
             },
             {
@@ -49,7 +109,7 @@
               "RelativeDocumentMoniker": "Book\\Program.cs",
               "ToolTip": "D:\\Net project\\ForBooks\\Book\\Program.cs",
               "RelativeToolTip": "Book\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAcwGMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T13:28:09.98Z",
               "EditorCaption": ""

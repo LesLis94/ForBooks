@@ -8,10 +8,11 @@ using Book.Interfaces;
 
 namespace Book.Classes
 {
-    internal class SwordDamage : IDamage
+    internal class ArrowDamage : IDamage
     {
-        private const int BASE_DAMAGE = 3;
-        private const int FLAME_DAMAGE = 2;
+        private const decimal BASE_MULTIPLIER = 0.35M;
+        private const decimal MAGIC_MULTIPLIER = 2.5M;
+        private const decimal FLAME_DAMAGE = 1.25M;
 
         private int roll;
         public int Roll { get { return roll; }
@@ -22,7 +23,6 @@ namespace Book.Classes
             } 
         }
 
-        //private decimal MagicMultiplier = 1M;
         private int FlamingDamage = 0;
         private int damage; 
         public int Damage { get; private set; }
@@ -48,47 +48,17 @@ namespace Book.Classes
             }
         }
 
-        public SwordDamage(int startingRoll)
-        {
-            Roll = startingRoll;
-            //CalculateDamage();
-        }
+        public ArrowDamage(int startingRoll) => Roll = startingRoll;//CalculateDamage();
 
         private void CalculateDamage()
         {
-            decimal magicMultiplier = 1M;
-            if (magic) magicMultiplier = 1.75M;
+            decimal baseDamage = Roll * BASE_MULTIPLIER;
+            if (magic) baseDamage *= MAGIC_MULTIPLIER;
 
-            Damage = BASE_DAMAGE;
-
-            Damage = (int) (Roll * magicMultiplier) + BASE_DAMAGE;
-
-            if (flaming) Damage += FLAME_DAMAGE;
+            if (flaming) Damage = (int) Math.Ceiling(baseDamage + FLAME_DAMAGE);
+            else Damage = (int) Math.Ceiling(baseDamage);
         }
 
-        
-
-      /*  public void SetMagic(bool isMagic)
-        {
-            if (isMagic)
-            {
-                MagicMultiplier = 1.75M;
-            }
-            else
-            {
-                MagicMultiplier = 1M;
-            }
-            CalculateDamage();
-        }
-
-        public void SetFlaming(bool isFlaming)
-        {
-            CalculateDamage();
-            if (isFlaming)
-            {
-                Damage += FLAME_DAMAGE;
-            }
-        }*/
 
     }
 }

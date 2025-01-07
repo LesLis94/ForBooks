@@ -5,8 +5,11 @@ static class HiloGame
     private static Random random = new Random();
     private static int currentNumber = random.Next(1, MAXIMUM + 1);
     private static int pot = 10;
+    public static int GetPot { get; private set; }
 
-    public static int GetPot { get { return pot; } }
+    // prop и 2 tab
+   // public static int GetPot { get { return pot; } }
+
    
 
     internal static void Guess(bool higher)

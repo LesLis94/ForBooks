@@ -1,4 +1,5 @@
 ﻿
+using System;
 using System.Runtime;
 using Book.Classes;
 using Book.Interfaces;
@@ -6,14 +7,15 @@ using Microsoft.Extensions.DependencyInjection;
 
 internal class Program
 {
+    static Random random = new Random();
 
     private static void Main(string[] args)
     {
 
 
-        BigSmall();
+       // BigSmall();
 
-        //SwordDamageMagiceGame();
+        SwordDamageMagiceGame();
        // MagiceGame();
 
        // DependecyInjection();
@@ -46,29 +48,60 @@ internal class Program
 
     public static void SwordDamageMagiceGame()
     {
-        Random random = new Random();
-        SwordDamage swordDamage = new SwordDamage();
+
+        IDamage damageService;
+        int numberOfRoll = 3;
+
+        Console.WriteLine(" \nS for sword, A for arrow, anuthing else to quit: ");
+        var weaponKey = Char.ToUpper(Console.ReadKey().KeyChar);
+
+        switch (weaponKey)
+        {
+            case 'S':
+                damageService = new SwordDamage(RollDice(numberOfRoll));
+                break;
+            case 'A':
+                numberOfRoll = 1;
+                damageService = new ArrowDamage(RollDice(numberOfRoll));
+                break;
+
+            default:
+                return;
+        }
+
+        // SwordDamage swordDamage = new SwordDamage(RollDice());
 
         while (true)
         {
-            Console.Write($"0 for no magic/flaming, 1 for magic, 2 for flaming, 3 for both, anything else to quit: ");
+            Console.Write($"\n0 for no magic/flaming, 1 for magic, 2 for flaming, 3 for both, anything else to quit: ");
             var key = Console.ReadKey(false).KeyChar;
 
             if (key != '0' && key != '1' && key != '3' && key != '2') return;
 
-            swordDamage.Roll = random.Next(1, 7) + random.Next(1, 7) + random.Next(1, 7);
+            //swordDamage.Roll = random.Next(1, 7) + random.Next(1, 7) + random.Next(1, 7);
 
-            
-            swordDamage.SetMagic(key == '1' || key == '3');  
-            swordDamage.SetFlaming(key == '2' || key == '3');
+            damageService.Roll = RollDice(numberOfRoll);
+            damageService.Magic = (key == '1' || key == '3');
+            damageService.Flaming = (key == '2' || key == '3');
 
-            Console.WriteLine($"\n Rolled {swordDamage.Roll} for {swordDamage.Damage} HP \n");
+            Console.WriteLine($"\n Rolled {damageService.Roll} for {damageService.Damage} HP \n");
         }
+
     }
 
+    public static int RollDice(int numberOfRoll)
+    {
+        int value = 0;
+
+        for (int i = 0; i < numberOfRoll; i++)
+        {
+            value += random.Next(1, 7);
+        }
+
+        return value;
+    }
     public static void MagiceGame()
     {
-
         AbilityScoreCalculator calculator = new AbilityScoreCalculator();
 
         while (true)
