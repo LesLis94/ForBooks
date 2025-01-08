@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\Net project\\ForBooks\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\net project\\forbooks\\book\\classes\\birdbook\\egg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\birdbook\\egg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\net project\\forbooks\\book\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\net project\\forbooks\\book\\interfaces\\idamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\interfaces\\idamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\net project\\forbooks\\book\\classes\\birdbook\\bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\birdbook\\bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\net project\\forbooks\\book\\classes\\sworddamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\sworddamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\net project\\forbooks\\book\\interfaces\\idamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\interfaces\\idamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\net project\\forbooks\\book\\classes\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +42,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "Egg.cs",
+              "DocumentMoniker": "D:\\Net project\\ForBooks\\Book\\Classes\\BirdBook\\Egg.cs",
+              "RelativeDocumentMoniker": "Book\\Classes\\BirdBook\\Egg.cs",
+              "ToolTip": "D:\\Net project\\ForBooks\\Book\\Classes\\BirdBook\\Egg.cs",
+              "RelativeToolTip": "Book\\Classes\\BirdBook\\Egg.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T16:01:26.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bird.cs",
+              "DocumentMoniker": "D:\\Net project\\ForBooks\\Book\\Classes\\BirdBook\\Bird.cs",
+              "RelativeDocumentMoniker": "Book\\Classes\\BirdBook\\Bird.cs",
+              "ToolTip": "D:\\Net project\\ForBooks\\Book\\Classes\\BirdBook\\Bird.cs",
+              "RelativeToolTip": "Book\\Classes\\BirdBook\\Bird.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-07T16:01:10.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MessageService.cs",
               "DocumentMoniker": "D:\\Net project\\ForBooks\\Book\\Classes\\MessageService.cs",
               "RelativeDocumentMoniker": "Book\\Classes\\MessageService.cs",
@@ -46,12 +80,11 @@
               "RelativeToolTip": "Book\\Classes\\MessageService.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwAYAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T12:41:41.864Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T12:41:41.864Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "IMessageService.cs",
               "DocumentMoniker": "D:\\Net project\\ForBooks\\Book\\Interfaces\\IMessageService.cs",
               "RelativeDocumentMoniker": "Book\\Interfaces\\IMessageService.cs",
@@ -59,12 +92,11 @@
               "RelativeToolTip": "Book\\Interfaces\\IMessageService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T12:41:26.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T12:41:26.38Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "IDamage.cs",
               "DocumentMoniker": "D:\\Net project\\ForBooks\\Book\\Interfaces\\IDamage.cs",
               "RelativeDocumentMoniker": "Book\\Interfaces\\IDamage.cs",
@@ -72,12 +104,11 @@
               "RelativeToolTip": "Book\\Interfaces\\IDamage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T12:37:47.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T12:37:47.758Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ArrowDamage.cs",
               "DocumentMoniker": "D:\\Net project\\ForBooks\\Book\\Classes\\ArrowDamage.cs",
               "RelativeDocumentMoniker": "Book\\Classes\\ArrowDamage.cs",
@@ -85,12 +116,11 @@
               "RelativeToolTip": "Book\\Classes\\ArrowDamage.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAADIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T12:06:52.183Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T12:06:52.183Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SwordDamage.cs",
               "DocumentMoniker": "D:\\Net project\\ForBooks\\Book\\Classes\\SwordDamage.cs",
               "RelativeDocumentMoniker": "Book\\Classes\\SwordDamage.cs",
@@ -98,18 +128,17 @@
               "RelativeToolTip": "Book\\Classes\\SwordDamage.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwBQAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T10:31:08.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-07T10:31:08.353Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Net project\\ForBooks\\Book\\Program.cs",
               "RelativeDocumentMoniker": "Book\\Program.cs",
               "ToolTip": "D:\\Net project\\ForBooks\\Book\\Program.cs",
               "RelativeToolTip": "Book\\Program.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAcwGMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAADwvxgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T13:28:09.98Z",
               "EditorCaption": ""

@@ -2,6 +2,7 @@
 using System;
 using System.Runtime;
 using Book.Classes;
+using Book.Classes.BirdBook;
 using Book.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -13,39 +14,20 @@ internal class Program
     {
 
 
-       // BigSmall();
 
-        SwordDamageMagiceGame();
-       // MagiceGame();
+        // SwordDamageMagiceGame();
+        // MagiceGame();
 
-       // DependecyInjection();
-       // TestDraive(); 
-       // Elephants();
-        
-    }
+        BerdClass();
+        // BigSmall();
 
-    public static void BigSmall()
-    {
-        Console.WriteLine($"Welcome");
-        Console.WriteLine($"Guess numbers between 1 and {HiloGame.MAXIMUM}.");
-        HiloGame.Hint();
-
-        while (HiloGame.GetPot > 0) {
-            Console.WriteLine("Press h for higher, 1 for lower, ? to buy a hint,");
-            Console.WriteLine($"or any other key to quit with {HiloGame.GetPot}.");
-            char key = Console.ReadKey(true).KeyChar;
-            if (key == 'h') HiloGame.Guess(true);
-            else if (key == '1') HiloGame.Guess(false);
-            else if (key == '?') HiloGame.Hint();
-            else
-            {
-                return;
-            }
-        }
-        Console.WriteLine("The pot is empty. By!");
+        // DependecyInjection();
+        // TestDraive(); 
+        // Elephants();
 
     }
 
+    // Magice Game
     public static void SwordDamageMagiceGame()
     {
 
@@ -120,6 +102,54 @@ internal class Program
         }
 
     }
+
+
+    public static void BerdClass()
+    {
+        while (true) {
+
+            Bird bird;
+            Console.Write("\nPress P for pigeon, O for ostrich: ");
+
+            char key = Char.ToUpper(Console.ReadKey().KeyChar);
+            if (key == 'P') bird = new Pigeon();
+            else if (key == 'O') bird = new Ostrich();
+            else return;
+
+            Console.Write("\nHow many eggs should it lay? ");
+            if (!int.TryParse(Console.ReadLine(), out int numberOfEggs)) return;
+            Egg[] eggs = bird.LayEggs(numberOfEggs);
+            foreach (Egg egg in eggs)
+            {
+                Console.WriteLine(egg.Description);
+            }
+        
+        }
+    }
+
+    public static void BigSmall()
+    {
+        Console.WriteLine($"Welcome");
+        Console.WriteLine($"Guess numbers between 1 and {HiloGame.MAXIMUM}.");
+        HiloGame.Hint();
+
+        while (HiloGame.GetPot > 0)
+        {
+            Console.WriteLine("Press h for higher, 1 for lower, ? to buy a hint,");
+            Console.WriteLine($"or any other key to quit with {HiloGame.GetPot}.");
+            char key = Console.ReadKey(true).KeyChar;
+            if (key == 'h') HiloGame.Guess(true);
+            else if (key == '1') HiloGame.Guess(false);
+            else if (key == '?') HiloGame.Hint();
+            else
+            {
+                return;
+            }
+        }
+        Console.WriteLine("The pot is empty. By!");
+
+    }
+
 
     static int ReadInt(int lastUsedValue, string promt)
     {
