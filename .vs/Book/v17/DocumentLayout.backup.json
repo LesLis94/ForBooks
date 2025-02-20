@@ -7,32 +7,44 @@
       "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\net project\\forbooks\\book\\classes\\birdbook\\bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\birdbook\\bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\net project\\forbooks\\book\\classes\\damage\\arrowdamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\damage\\arrowdamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\net project\\forbooks\\book\\classes\\birdbook\\egg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\birdbook\\egg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\net project\\forbooks\\book\\classes\\damage\\sworddamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\damage\\sworddamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\net project\\forbooks\\book\\classes\\sworddamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\sworddamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\net project\\forbooks\\book\\classes\\damage\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\damage\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\net project\\forbooks\\book\\interfaces\\idamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\interfaces\\idamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\net project\\forbooks\\book\\classes\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\net project\\forbooks\\book\\classes\\damage\\abilityscorecalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\damage\\abilityscorecalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\net project\\forbooks\\book\\interfaces\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\interfaces\\imessageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\net project\\forbooks\\book\\classes\\arrowdamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\arrowdamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\net project\\forbooks\\book\\classes\\birdbook\\egg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\birdbook\\egg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\net project\\forbooks\\book\\classes\\birdbook\\bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\birdbook\\bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\net project\\forbooks\\book\\classes\\safe\\safe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\safe\\safe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\net project\\forbooks\\book\\classes\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\messageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\net project\\forbooks\\book\\classes\\birdbook\\vedingmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\birdbook\\vedingmachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,53 +54,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
+              "Title": "Damage.cs",
+              "DocumentMoniker": "D:\\Net project\\ForBooks\\Book\\Classes\\Damage\\Damage.cs",
+              "RelativeDocumentMoniker": "Book\\Classes\\Damage\\Damage.cs",
+              "ToolTip": "D:\\Net project\\ForBooks\\Book\\Classes\\Damage\\Damage.cs",
+              "RelativeToolTip": "Book\\Classes\\Damage\\Damage.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAywA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T19:24:31.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AbilityScoreCalculator.cs",
+              "DocumentMoniker": "D:\\Net project\\ForBooks\\Book\\Classes\\Damage\\AbilityScoreCalculator.cs",
+              "RelativeDocumentMoniker": "Book\\Classes\\Damage\\AbilityScoreCalculator.cs",
+              "ToolTip": "D:\\Net project\\ForBooks\\Book\\Classes\\Damage\\AbilityScoreCalculator.cs",
+              "RelativeToolTip": "Book\\Classes\\Damage\\AbilityScoreCalculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T19:51:02.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "VedingMachine.cs",
+              "DocumentMoniker": "D:\\Net project\\ForBooks\\Book\\Classes\\BirdBook\\VedingMachine.cs",
+              "RelativeDocumentMoniker": "Book\\Classes\\BirdBook\\VedingMachine.cs",
+              "ToolTip": "D:\\Net project\\ForBooks\\Book\\Classes\\BirdBook\\VedingMachine.cs",
+              "RelativeToolTip": "Book\\Classes\\BirdBook\\VedingMachine.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T19:37:37.464Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Egg.cs",
               "DocumentMoniker": "D:\\Net project\\ForBooks\\Book\\Classes\\BirdBook\\Egg.cs",
               "RelativeDocumentMoniker": "Book\\Classes\\BirdBook\\Egg.cs",
               "ToolTip": "D:\\Net project\\ForBooks\\Book\\Classes\\BirdBook\\Egg.cs",
               "RelativeToolTip": "Book\\Classes\\BirdBook\\Egg.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBwAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-07T16:01:26.784Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Bird.cs",
               "DocumentMoniker": "D:\\Net project\\ForBooks\\Book\\Classes\\BirdBook\\Bird.cs",
               "RelativeDocumentMoniker": "Book\\Classes\\BirdBook\\Bird.cs",
               "ToolTip": "D:\\Net project\\ForBooks\\Book\\Classes\\BirdBook\\Bird.cs",
               "RelativeToolTip": "Book\\Classes\\BirdBook\\Bird.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-07T16:01:10.279Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "MessageService.cs",
               "DocumentMoniker": "D:\\Net project\\ForBooks\\Book\\Classes\\MessageService.cs",
               "RelativeDocumentMoniker": "Book\\Classes\\MessageService.cs",
               "ToolTip": "D:\\Net project\\ForBooks\\Book\\Classes\\MessageService.cs",
               "RelativeToolTip": "Book\\Classes\\MessageService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAYAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-07T12:41:41.864Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "IMessageService.cs",
               "DocumentMoniker": "D:\\Net project\\ForBooks\\Book\\Interfaces\\IMessageService.cs",
               "RelativeDocumentMoniker": "Book\\Interfaces\\IMessageService.cs",
@@ -96,43 +170,34 @@
               "RelativeToolTip": "Book\\Interfaces\\IMessageService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T12:41:26.38Z"
+              "WhenOpened": "2025-01-07T12:41:26.38Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IDamage.cs",
-              "DocumentMoniker": "D:\\Net project\\ForBooks\\Book\\Interfaces\\IDamage.cs",
-              "RelativeDocumentMoniker": "Book\\Interfaces\\IDamage.cs",
-              "ToolTip": "D:\\Net project\\ForBooks\\Book\\Interfaces\\IDamage.cs",
-              "RelativeToolTip": "Book\\Interfaces\\IDamage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T12:37:47.758Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "ArrowDamage.cs",
-              "DocumentMoniker": "D:\\Net project\\ForBooks\\Book\\Classes\\ArrowDamage.cs",
-              "RelativeDocumentMoniker": "Book\\Classes\\ArrowDamage.cs",
-              "ToolTip": "D:\\Net project\\ForBooks\\Book\\Classes\\ArrowDamage.cs",
-              "RelativeToolTip": "Book\\Classes\\ArrowDamage.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAADIAAAAVAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Net project\\ForBooks\\Book\\Classes\\Damage\\ArrowDamage.cs",
+              "RelativeDocumentMoniker": "Book\\Classes\\Damage\\ArrowDamage.cs",
+              "ToolTip": "D:\\Net project\\ForBooks\\Book\\Classes\\Damage\\ArrowDamage.cs",
+              "RelativeToolTip": "Book\\Classes\\Damage\\ArrowDamage.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T12:06:52.183Z"
+              "WhenOpened": "2025-01-07T12:06:52.183Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "SwordDamage.cs",
-              "DocumentMoniker": "D:\\Net project\\ForBooks\\Book\\Classes\\SwordDamage.cs",
-              "RelativeDocumentMoniker": "Book\\Classes\\SwordDamage.cs",
-              "ToolTip": "D:\\Net project\\ForBooks\\Book\\Classes\\SwordDamage.cs",
-              "RelativeToolTip": "Book\\Classes\\SwordDamage.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBQAAAAiAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\Net project\\ForBooks\\Book\\Classes\\Damage\\SwordDamage.cs",
+              "RelativeDocumentMoniker": "Book\\Classes\\Damage\\SwordDamage.cs",
+              "ToolTip": "D:\\Net project\\ForBooks\\Book\\Classes\\Damage\\SwordDamage.cs",
+              "RelativeToolTip": "Book\\Classes\\Damage\\SwordDamage.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-07T10:31:08.353Z"
+              "WhenOpened": "2025-01-07T10:31:08.353Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -142,10 +207,22 @@
               "RelativeDocumentMoniker": "Book\\Program.cs",
               "ToolTip": "D:\\Net project\\ForBooks\\Book\\Program.cs",
               "RelativeToolTip": "Book\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAADwvxgAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAowDwAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T13:28:09.98Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Safe.cs",
+              "DocumentMoniker": "D:\\Net project\\ForBooks\\Book\\Classes\\Safe\\Safe.cs",
+              "RelativeDocumentMoniker": "Book\\Classes\\Safe\\Safe.cs",
+              "ToolTip": "D:\\Net project\\ForBooks\\Book\\Classes\\Safe\\Safe.cs",
+              "RelativeToolTip": "Book\\Classes\\Safe\\Safe.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAowDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-19T20:03:26.245Z"
             }
           ]
         }

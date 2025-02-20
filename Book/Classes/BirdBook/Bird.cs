@@ -28,14 +28,16 @@ namespace Book.Classes.BirdBook
 
             for (int i = 0; i < nnumberOfEggs; i++)
             {
-                eggs[i] = new Egg(Bird.Randomizer.NextDouble() * 2 + 1, color);
+                if (Bird.Randomizer.Next(4) == 0)
+                    eggs[i] = new BrokenEgg(color);
+                else
+                    eggs[i] = new Egg(Bird.Randomizer.NextDouble() * 2 + 1, color);
             }
 
             return eggs; 
         }
-
-
     }
+
     public class Ostrich : Bird
     {
         private string color = "speckled";
@@ -52,6 +54,5 @@ namespace Book.Classes.BirdBook
             return eggs;
         }
     }
-
 }
 
