@@ -15,7 +15,9 @@ internal class Program
     private static void Main(string[] args)
     {
 
-        Animals();
+        testHH();
+
+       // Animals();
        // Tall();
        // VendingMachineM();
 
@@ -28,6 +30,75 @@ internal class Program
         // DependecyInjection();
         // TestDraive(); 
         // Elephants();
+
+    }
+
+    public static void testHH()
+    {
+        // 1 задача
+        string inputValue = "";
+        string inputeName = "";
+        //-------------
+
+        var studentNames = new List<string>();
+
+        string[] values = inputValue.Split(',');
+        string[] names = inputeName.Split(",");
+
+        var ii = 0;
+
+        foreach (string value in values)
+        {
+
+            if (int.TryParse(value, out int val))
+            {
+                if(val >= 49 && val <= 59)
+                {
+                    studentNames.Add(names[ii]);
+                }
+            }
+            ii++;
+        }
+
+        if (studentNames.Count == 0)
+        {
+            studentNames.Add("none");
+        }
+
+        //return studentNames;
+        // конец 1 задачи
+
+        // 2 задача
+        string inputNamees = "";
+        string inputeFamilis = "";
+        //-------------
+
+        string[] namees = inputNamees.Split(',');
+        string[] famils = inputeFamilis.Split(",");
+
+        string name = "";
+        string famil = "";
+
+        for (int i = 0; i < famils.Length; i++)
+        {
+            if (i == 0) { name = names[i]; famil = famils[i]; continue; }
+
+            if (famil.Length < famils[i].Length) { name = names[i]; famil = famils[i]; continue; }
+
+            if (famil.Length == famils[i].Length)
+            {
+                if (name.Length < namees[i].Length)
+                {
+                    name = names[i]; famil = famils[i]; continue;
+                }
+             }
+        }
+
+       // return $"{name};{famil}";
+       // конец 2 задачи
+
+
+
 
     }
 
