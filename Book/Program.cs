@@ -15,7 +15,7 @@ internal class Program
     private static void Main(string[] args)
     {
 
-        testHH();
+        //testHH();
 
        // Animals();
        // Tall();
@@ -43,7 +43,7 @@ internal class Program
         var studentNames = new List<string>();
 
         string[] values = inputValue.Split(',');
-        string[] names = inputeName.Split(",");
+        string[] names = inputeName.Split(',');
 
         var ii = 0;
 
@@ -74,7 +74,7 @@ internal class Program
         //-------------
 
         string[] namees = inputNamees.Split(',');
-        string[] famils = inputeFamilis.Split(",");
+        string[] famils = inputeFamilis.Split(',');
 
         string name = "";
         string famil = "";
