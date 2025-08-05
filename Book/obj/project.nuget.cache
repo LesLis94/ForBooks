@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HmsblMcW++8=",
+  "dgSpecHash": "8hjfmerxUnQ=",
   "success": true,
-  "projectFilePath": "D:\\Net project\\ForBooks\\Book\\Book.csproj",
+  "projectFilePath": "D:\\NetProject\\ForBooks\\Book\\Book.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\janua\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.0\\microsoft.bcl.asyncinterfaces.9.0.0.nupkg.sha512",
     "C:\\Users\\janua\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\9.0.0\\microsoft.extensions.dependencyinjection.9.0.0.nupkg.sha512",

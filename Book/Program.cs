@@ -2,6 +2,7 @@
 using System;
 using System.Runtime;
 using Book.Classes;
+using Book.Classes.Animal;
 using Book.Classes.BirdBook;
 using Book.Classes.Damage;
 using Book.Interfaces;
@@ -14,8 +15,8 @@ internal class Program
     private static void Main(string[] args)
     {
 
-
-
+        Animals();
+       // Tall();
        // VendingMachineM();
 
         // SwordDamageMagiceGame();
@@ -30,8 +31,40 @@ internal class Program
 
     }
 
+    public static void Animals()
+    {
+        Animal[] animals =
+        {
+            new Wolf(false),
+            new Hippo(),
+            new Wolf(true),
+            new Wolf(false),
+            new Hippo()
+        };
+        foreach (var animal in animals)
+        {
+            animal.MakeNois();
+            if (animal is IPackHunter hunter)
+            {
+                hunter.HuntInPack();
+            }
+            if (animal is ISwimmer swimmer)
+            {
+                swimmer.Swim();
+            }
+            Console.WriteLine();
+        }
+    }
+
+    public static void Tall()
+    {
+        TallGuy tallGuy = new TallGuy() { Height = 76, Name = "Jimy"};
+        tallGuy.TalkAboutYourself();
+        Console.WriteLine($"The tall guy has {tallGuy.FunnyThingIHave}");
+        tallGuy.Honk();
 
 
+    }
     public static void VendingMachineM()
     {
         VendingMachine vendingMachine = new AnimalFeedVendingMachine();

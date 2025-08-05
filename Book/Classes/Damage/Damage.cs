@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Book.Classes.Damage
 {
-    class WeaponDamage
+    abstract class WeaponDamage
     {
         public int Roll { get { return Roll; } set {
                 Roll = value;
@@ -30,9 +30,7 @@ namespace Book.Classes.Damage
                 CalculateDamage();
             }
         }
-        protected virtual void CalculateDamage()
-        {
-        }
+        protected abstract void CalculateDamage();
 
         public WeaponDamage(int startingRoll) {
             Roll = startingRoll;
