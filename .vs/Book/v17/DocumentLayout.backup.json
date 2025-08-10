@@ -11,44 +11,12 @@
       "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\duck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\netproject\\forbooks\\book\\classes\\schoes\\shoecloset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\schoes\\shoecloset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\netproject\\forbooks\\book\\classes\\cards\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\cards\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\netproject\\forbooks\\book\\classes\\schoes\\shoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\schoes\\shoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\netproject\\forbooks\\book\\classes\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\netproject\\forbooks\\book\\classes\\animal\\hippo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\animal\\hippo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\netproject\\forbooks\\book\\classes\\animal\\wolf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\animal\\wolf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\netproject\\forbooks\\book\\interfaces\\ianimalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\interfaces\\ianimalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\netproject\\forbooks\\book\\classes\\animal\\canin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\animal\\canin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\netproject\\forbooks\\book\\classes\\animal\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\animal\\animal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\netproject\\forbooks\\book\\classes\\tallguy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\tallguy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\netproject\\forbooks\\book\\interfaces\\iclown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\interfaces\\iclown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\netproject\\forbooks\\book\\classes\\cards\\cardcomparerbyvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\cards\\cardcomparerbyvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,136 +42,42 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CardComparerByValue.cs",
+              "DocumentMoniker": "D:\\NetProject\\ForBooks\\Book\\Classes\\Cards\\CardComparerByValue.cs",
+              "RelativeDocumentMoniker": "Book\\Classes\\Cards\\CardComparerByValue.cs",
+              "ToolTip": "D:\\NetProject\\ForBooks\\Book\\Classes\\Cards\\CardComparerByValue.cs",
+              "RelativeToolTip": "Book\\Classes\\Cards\\CardComparerByValue.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T13:27:12.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Card.cs",
+              "DocumentMoniker": "D:\\NetProject\\ForBooks\\Book\\Classes\\Cards\\Card.cs",
+              "RelativeDocumentMoniker": "Book\\Classes\\Cards\\Card.cs",
+              "ToolTip": "D:\\NetProject\\ForBooks\\Book\\Classes\\Cards\\Card.cs",
+              "RelativeToolTip": "Book\\Classes\\Cards\\Card.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wBUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T13:26:16.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Duck.cs",
               "DocumentMoniker": "D:\\NetProject\\ForBooks\\Book\\Classes\\Duck.cs",
               "RelativeDocumentMoniker": "Book\\Classes\\Duck.cs",
               "ToolTip": "D:\\NetProject\\ForBooks\\Book\\Classes\\Duck.cs",
               "RelativeToolTip": "Book\\Classes\\Duck.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-10T10:55:27.431Z",
+              "WhenOpened": "2025-08-10T11:13:54.497Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ShoeCloset.cs",
-              "DocumentMoniker": "D:\\NetProject\\ForBooks\\Book\\Classes\\Schoes\\ShoeCloset.cs",
-              "RelativeDocumentMoniker": "Book\\Classes\\Schoes\\ShoeCloset.cs",
-              "ToolTip": "D:\\NetProject\\ForBooks\\Book\\Classes\\Schoes\\ShoeCloset.cs",
-              "RelativeToolTip": "Book\\Classes\\Schoes\\ShoeCloset.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwDYAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T10:09:35.592Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Shoe.cs",
-              "DocumentMoniker": "D:\\NetProject\\ForBooks\\Book\\Classes\\Schoes\\Shoe.cs",
-              "RelativeDocumentMoniker": "Book\\Classes\\Schoes\\Shoe.cs",
-              "ToolTip": "D:\\NetProject\\ForBooks\\Book\\Classes\\Schoes\\Shoe.cs",
-              "RelativeToolTip": "Book\\Classes\\Schoes\\Shoe.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T09:36:22.554Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Card.cs",
-              "DocumentMoniker": "D:\\NetProject\\ForBooks\\Book\\Classes\\Card.cs",
-              "RelativeDocumentMoniker": "Book\\Classes\\Card.cs",
-              "ToolTip": "D:\\NetProject\\ForBooks\\Book\\Classes\\Card.cs",
-              "RelativeToolTip": "Book\\Classes\\Card.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-07T08:31:15.488Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IAnimalService.cs",
-              "DocumentMoniker": "D:\\NetProject\\ForBooks\\Book\\Interfaces\\IAnimalService.cs",
-              "RelativeDocumentMoniker": "Book\\Interfaces\\IAnimalService.cs",
-              "ToolTip": "D:\\NetProject\\ForBooks\\Book\\Interfaces\\IAnimalService.cs",
-              "RelativeToolTip": "Book\\Interfaces\\IAnimalService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T20:38:54.079Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Wolf.cs",
-              "DocumentMoniker": "D:\\NetProject\\ForBooks\\Book\\Classes\\Animal\\Wolf.cs",
-              "RelativeDocumentMoniker": "Book\\Classes\\Animal\\Wolf.cs",
-              "ToolTip": "D:\\NetProject\\ForBooks\\Book\\Classes\\Animal\\Wolf.cs",
-              "RelativeToolTip": "Book\\Classes\\Animal\\Wolf.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T20:24:23.025Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Canin.cs",
-              "DocumentMoniker": "D:\\NetProject\\ForBooks\\Book\\Classes\\Animal\\Canin.cs",
-              "RelativeDocumentMoniker": "Book\\Classes\\Animal\\Canin.cs",
-              "ToolTip": "D:\\NetProject\\ForBooks\\Book\\Classes\\Animal\\Canin.cs",
-              "RelativeToolTip": "Book\\Classes\\Animal\\Canin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T20:22:37.696Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Hippo.cs",
-              "DocumentMoniker": "D:\\NetProject\\ForBooks\\Book\\Classes\\Animal\\Hippo.cs",
-              "RelativeDocumentMoniker": "Book\\Classes\\Animal\\Hippo.cs",
-              "ToolTip": "D:\\NetProject\\ForBooks\\Book\\Classes\\Animal\\Hippo.cs",
-              "RelativeToolTip": "Book\\Classes\\Animal\\Hippo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T20:19:31.082Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Animal.cs",
-              "DocumentMoniker": "D:\\NetProject\\ForBooks\\Book\\Classes\\Animal\\Animal.cs",
-              "RelativeDocumentMoniker": "Book\\Classes\\Animal\\Animal.cs",
-              "ToolTip": "D:\\NetProject\\ForBooks\\Book\\Classes\\Animal\\Animal.cs",
-              "RelativeToolTip": "Book\\Classes\\Animal\\Animal.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-13T20:18:20.78Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IClown.cs",
-              "DocumentMoniker": "D:\\NetProject\\ForBooks\\Book\\Interfaces\\IClown.cs",
-              "RelativeDocumentMoniker": "Book\\Interfaces\\IClown.cs",
-              "ToolTip": "D:\\NetProject\\ForBooks\\Book\\Interfaces\\IClown.cs",
-              "RelativeToolTip": "Book\\Interfaces\\IClown.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T18:36:34.309Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TallGuy.cs",
-              "DocumentMoniker": "D:\\NetProject\\ForBooks\\Book\\Classes\\TallGuy.cs",
-              "RelativeDocumentMoniker": "Book\\Classes\\TallGuy.cs",
-              "ToolTip": "D:\\NetProject\\ForBooks\\Book\\Classes\\TallGuy.cs",
-              "RelativeToolTip": "Book\\Classes\\TallGuy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-25T18:29:14.406Z"
             },
             {
               "$type": "Document",
@@ -213,7 +87,7 @@
               "RelativeDocumentMoniker": "Book\\Program.cs",
               "ToolTip": "D:\\NetProject\\ForBooks\\Book\\Program.cs",
               "RelativeToolTip": "Book\\Program.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAgwD0AAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAGkAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T13:28:09.98Z",
               "EditorCaption": ""

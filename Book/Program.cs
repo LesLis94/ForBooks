@@ -4,6 +4,7 @@ using System.Runtime;
 using Book.Classes;
 using Book.Classes.Animal;
 using Book.Classes.BirdBook;
+using Book.Classes.Cards;
 using Book.Classes.Damage;
 using Book.Classes.Schoes;
 using Book.Interfaces;
@@ -18,7 +19,11 @@ internal class Program
     static void Main(string[] args)
     {
 
-        Ducks();
+
+
+       // KolodaCards();
+
+       Ducks();
        // Schoes();
 
        // MyCard();
@@ -40,6 +45,48 @@ internal class Program
 
     }
 
+    public static void KolodaCards()
+    {
+        List<Card> cards = new List<Card>();
+
+        Console.Write("\n Enter number of cards: ");
+        if (int.TryParse(Console.ReadLine(), out var cardsValue)) {
+            if (cardsValue > 0 && cardsValue <= 56)
+            {
+                for (int i = 0; i < cardsValue; i++)
+                {
+                    cards.Add(RandomCard());
+                }
+            }
+        }
+
+        Console.WriteLine("... sorting the cards...");
+        cards.Sort(new CardComparerByValue());
+
+        foreach (Card card in cards) { 
+            
+            Console.WriteLine(card.Name);
+        }
+
+    }
+
+    public static void PrintCard()
+    {
+
+    }
+
+    public static Card RandomCard()
+    {
+        Random random = new Random();
+        var numberBetween0And3 = random.Next(4);
+        var numberBetween1And13 = random.Next(1, 14);
+       // var anyRandomInteger = random.Next();
+
+        Card card = new Card(numberBetween1And13, numberBetween0And3);
+        Console.WriteLine(card.Name);
+        return card;
+    }
+
     public static void Ducks()
     {
 
@@ -52,6 +99,7 @@ internal class Program
             new Duck() {Kind = KindOfDuck.Mallard,Size = 14},
             new Duck() {Kind = KindOfDuck.Loon, Size = 13},
         };
+        ducks.Sort((IComparer<Duck>)new DuckComparerBySize());
         PrintDucks(ducks);
     }
 
@@ -59,7 +107,7 @@ internal class Program
     {
         foreach (Duck duck in ducks)
         {
-            Console.WriteLine($"{duck.Size} inch {duck.Kind}");
+            Console.WriteLine($"{duck}");
         }
     }
 

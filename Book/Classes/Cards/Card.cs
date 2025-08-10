@@ -4,22 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Book.Classes
+namespace Book.Classes.Cards
 {
     class Card
     {
         public Value Value { get; private set; }
-        public Suit Suit {  get; private set; }
+        public Suit Suit { get; private set; }
         public string Name { get { return $"{Value} of {Suit}"; } }
-        public Card(int value, int suit) {  Value = (Value) value; Suit = (Suit) suit ;}
+        public Card(int value, int suit) { Value = (Value)value; Suit = (Suit)suit; }
     }
 
     enum Suit
     {
-        Spades,
-        Clubs,
         Diamonds,
-        Hearts
+        Clubs,
+        Hearts,
+        Spades,
     }
 
     enum Value
