@@ -7,6 +7,22 @@
       "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\netproject\\forbooks\\book\\classes\\duck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\duck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\netproject\\forbooks\\book\\classes\\schoes\\shoecloset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\schoes\\shoecloset.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\netproject\\forbooks\\book\\classes\\schoes\\shoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\schoes\\shoe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\netproject\\forbooks\\book\\classes\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\card.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\netproject\\forbooks\\book\\classes\\animal\\hippo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\animal\\hippo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -42,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,7 +74,56 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Duck.cs",
+              "DocumentMoniker": "D:\\NetProject\\ForBooks\\Book\\Classes\\Duck.cs",
+              "RelativeDocumentMoniker": "Book\\Classes\\Duck.cs",
+              "ToolTip": "D:\\NetProject\\ForBooks\\Book\\Classes\\Duck.cs",
+              "RelativeToolTip": "Book\\Classes\\Duck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-10T10:55:27.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ShoeCloset.cs",
+              "DocumentMoniker": "D:\\NetProject\\ForBooks\\Book\\Classes\\Schoes\\ShoeCloset.cs",
+              "RelativeDocumentMoniker": "Book\\Classes\\Schoes\\ShoeCloset.cs",
+              "ToolTip": "D:\\NetProject\\ForBooks\\Book\\Classes\\Schoes\\ShoeCloset.cs",
+              "RelativeToolTip": "Book\\Classes\\Schoes\\ShoeCloset.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwDYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T10:09:35.592Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Shoe.cs",
+              "DocumentMoniker": "D:\\NetProject\\ForBooks\\Book\\Classes\\Schoes\\Shoe.cs",
+              "RelativeDocumentMoniker": "Book\\Classes\\Schoes\\Shoe.cs",
+              "ToolTip": "D:\\NetProject\\ForBooks\\Book\\Classes\\Schoes\\Shoe.cs",
+              "RelativeToolTip": "Book\\Classes\\Schoes\\Shoe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T09:36:22.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Card.cs",
+              "DocumentMoniker": "D:\\NetProject\\ForBooks\\Book\\Classes\\Card.cs",
+              "RelativeDocumentMoniker": "Book\\Classes\\Card.cs",
+              "ToolTip": "D:\\NetProject\\ForBooks\\Book\\Classes\\Card.cs",
+              "RelativeToolTip": "Book\\Classes\\Card.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T08:31:15.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "IAnimalService.cs",
               "DocumentMoniker": "D:\\NetProject\\ForBooks\\Book\\Interfaces\\IAnimalService.cs",
               "RelativeDocumentMoniker": "Book\\Interfaces\\IAnimalService.cs",
@@ -70,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Wolf.cs",
               "DocumentMoniker": "D:\\NetProject\\ForBooks\\Book\\Classes\\Animal\\Wolf.cs",
               "RelativeDocumentMoniker": "Book\\Classes\\Animal\\Wolf.cs",
@@ -82,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Canin.cs",
               "DocumentMoniker": "D:\\NetProject\\ForBooks\\Book\\Classes\\Animal\\Canin.cs",
               "RelativeDocumentMoniker": "Book\\Classes\\Animal\\Canin.cs",
@@ -94,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Hippo.cs",
               "DocumentMoniker": "D:\\NetProject\\ForBooks\\Book\\Classes\\Animal\\Hippo.cs",
               "RelativeDocumentMoniker": "Book\\Classes\\Animal\\Hippo.cs",
@@ -106,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Animal.cs",
               "DocumentMoniker": "D:\\NetProject\\ForBooks\\Book\\Classes\\Animal\\Animal.cs",
               "RelativeDocumentMoniker": "Book\\Classes\\Animal\\Animal.cs",
@@ -118,7 +183,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "IClown.cs",
               "DocumentMoniker": "D:\\NetProject\\ForBooks\\Book\\Interfaces\\IClown.cs",
               "RelativeDocumentMoniker": "Book\\Interfaces\\IClown.cs",
@@ -130,7 +195,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "TallGuy.cs",
               "DocumentMoniker": "D:\\NetProject\\ForBooks\\Book\\Classes\\TallGuy.cs",
               "RelativeDocumentMoniker": "Book\\Classes\\TallGuy.cs",
@@ -148,7 +213,7 @@
               "RelativeDocumentMoniker": "Book\\Program.cs",
               "ToolTip": "D:\\NetProject\\ForBooks\\Book\\Program.cs",
               "RelativeToolTip": "Book\\Program.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowDUAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwD0AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T13:28:09.98Z",
               "EditorCaption": ""

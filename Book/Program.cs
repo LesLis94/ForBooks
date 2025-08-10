@@ -5,6 +5,7 @@ using Book.Classes;
 using Book.Classes.Animal;
 using Book.Classes.BirdBook;
 using Book.Classes.Damage;
+using Book.Classes.Schoes;
 using Book.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -12,9 +13,15 @@ internal class Program
 {
     static Random random = new Random();
 
-    private static void Main(string[] args)
+    static ShoeCloset shoeCloset = new ShoeCloset();
+
+    static void Main(string[] args)
     {
 
+        Ducks();
+       // Schoes();
+
+       // MyCard();
         //testHH();
 
        // Animals();
@@ -31,6 +38,64 @@ internal class Program
         // TestDraive(); 
         // Elephants();
 
+    }
+
+    public static void Ducks()
+    {
+
+        List<Duck> ducks = new List<Duck>() {
+            
+            new Duck() {Kind = KindOfDuck.Mallard, Size = 17},
+            new Duck() {Kind = KindOfDuck.Muscovy, Size = 18},
+            new Duck() {Kind = KindOfDuck.Loon, Size = 14},
+            new Duck() {Kind = KindOfDuck.Muscovy,Size = 11},
+            new Duck() {Kind = KindOfDuck.Mallard,Size = 14},
+            new Duck() {Kind = KindOfDuck.Loon, Size = 13},
+        };
+        PrintDucks(ducks);
+    }
+
+    public static void PrintDucks(List<Duck> ducks)
+    {
+        foreach (Duck duck in ducks)
+        {
+            Console.WriteLine($"{duck.Size} inch {duck.Kind}");
+        }
+    }
+
+    public static void Schoes()
+    {
+        while (true) {
+            
+            shoeCloset.PrintShoes();
+            Console.Write("\n Press 'a' to add or 'r' to remove a shoe: ");
+            char key = Console.ReadKey().KeyChar;
+
+            switch (key)
+            {
+                case 'a':
+                case 'A':
+                    shoeCloset.AddShoe();
+                    break;
+                case 'r':
+                case 'R':
+                    shoeCloset.RemoveShoe();
+                    break;
+                default:
+                    return;
+            }
+        }
+    }
+
+    public static void MyCard()
+    {
+        Random random = new Random();
+        var numberBetween0And3 = random.Next(4);
+        var numberBetween1And13 = random.Next(1, 14);
+        var anyRandomInteger = random.Next();
+
+        Card card = new Card (numberBetween1And13, numberBetween0And3);
+        Console.WriteLine (card.Name);
     }
 
     public static void testHH()
