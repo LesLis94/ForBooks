@@ -12,47 +12,68 @@ namespace Book.Classes.BirdBook
     {
         public static Random Randomizer = new Random();
         public abstract Egg[] LayEggs(int numberOfEggs);
-       // {
-            //Console.Error.WriteLine("Bird.LayEggs should never get called");
-           // return new Egg[0];
-       // }
-    }
+        // {
+        //Console.Error.WriteLine("Bird.LayEggs should never get called");
+        // return new Egg[0];
+        // }
 
-    public class Pigeon : Bird 
-    {
-        private string color = "white";
-
-        public override Egg[] LayEggs(int nnumberOfEggs)
+        public string Name { get; set; }
+        public virtual void Fly(string destination)
         {
-            Egg[] eggs = new Egg[nnumberOfEggs];
+            Console.WriteLine($"{this} is flying to {destination}");
+        }
 
-            for (int i = 0; i < nnumberOfEggs; i++)
+        public override string ToString()
+        {
+            return $"A bird named {Name}";
+        }
+
+        public static void FlyAway(List<Bird> flock, string destination)
+        {
+            foreach (Bird bird in flock)
             {
-                if (Bird.Randomizer.Next(4) == 0)
-                    eggs[i] = new BrokenEgg(color);
-                else
-                    eggs[i] = new Egg(Bird.Randomizer.NextDouble() * 2 + 1, color);
+                bird.Fly(destination);
             }
-
-            return eggs; 
         }
     }
+
+    public class Pigeon : Bird
+        {
+            private string color = "white";
+
+            public override Egg[] LayEggs(int nnumberOfEggs)
+            {
+                Egg[] eggs = new Egg[nnumberOfEggs];
+
+                for (int i = 0; i < nnumberOfEggs; i++)
+                {
+                    if (Bird.Randomizer.Next(4) == 0)
+                        eggs[i] = new BrokenEgg(color);
+                    else
+                        eggs[i] = new Egg(Bird.Randomizer.NextDouble() * 2 + 1, color);
+                }
+
+                return eggs;
+            }
+        }
 
     public class Ostrich : Bird
-    {
-        private string color = "speckled";
-
-        public override Egg[] LayEggs(int nnumberOfEggs)
         {
-            Egg[] eggs = new Egg[nnumberOfEggs];
+            private string color = "speckled";
 
-            for (int i = 0; i < nnumberOfEggs; i++)
+            public override Egg[] LayEggs(int nnumberOfEggs)
             {
-                eggs[i] = new Egg(Bird.Randomizer.NextDouble() + 12, color);
-            }
+                Egg[] eggs = new Egg[nnumberOfEggs];
 
-            return eggs;
+                for (int i = 0; i < nnumberOfEggs; i++)
+                {
+                    eggs[i] = new Egg(Bird.Randomizer.NextDouble() + 12, color);
+                }
+
+                return eggs;
+            }
         }
-    }
+
 }
+
 

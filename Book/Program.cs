@@ -19,11 +19,11 @@ internal class Program
     static void Main(string[] args)
     {
 
-
+        LumberJacks();
 
        // KolodaCards();
 
-       Ducks();
+      // Ducks();
        // Schoes();
 
        // MyCard();
@@ -43,6 +43,35 @@ internal class Program
         // TestDraive(); 
         // Elephants();
 
+    }
+
+    public static void LumberJacks()
+    {
+        Random random = new Random();
+        Queue<Lumberjack> queueLumberjack = new Queue<Lumberjack>();
+
+        Console.Write("First lumberjack's name: ");
+        var name = "";
+        while ((name = Console.ReadLine()) != "")
+        {
+            Console.Write("Number of flapjacks: ");
+            var lumberjack = new Lumberjack() { Name = name };
+            if (int.TryParse(Console.ReadLine(), out var value))
+            {        
+                for (int i = 0; i < value; i++)
+                {
+                    lumberjack.TakeFlapjack((Flapjack)random.Next(0, 4));
+                }
+            }
+            queueLumberjack.Enqueue(lumberjack);
+            Console.Write("\n Next lumberjack's name (blank to end): ");
+        }
+        while(queueLumberjack.Count > 0)
+        {
+            var lumber = queueLumberjack.Dequeue();
+            lumber.EatFlapjacks();
+            
+        }
     }
 
     public static void KolodaCards()
@@ -101,6 +130,10 @@ internal class Program
         };
         ducks.Sort((IComparer<Duck>)new DuckComparerBySize());
         PrintDucks(ducks);
+
+        IEnumerable<Bird> birds = ducks;
+        Bird.FlyAway(birds.ToList(), "Minesota");
+
     }
 
     public static void PrintDucks(List<Duck> ducks)
@@ -336,17 +369,17 @@ internal class Program
             Console.Write("\nPress P for pigeon, O for ostrich: ");
 
             char key = Char.ToUpper(Console.ReadKey().KeyChar);
-            if (key == 'P') bird = new Pigeon();
-            else if (key == 'O') bird = new Ostrich();
-            else return;
+           // if (key == 'P') bird = new Pigeon();
+            //else if (key == 'O') bird = new Ostrich();
+            //else return;
 
             Console.Write("\nHow many eggs should it lay? ");
             if (!int.TryParse(Console.ReadLine(), out int numberOfEggs)) return;
-            Egg[] eggs = bird.LayEggs(numberOfEggs);
-            foreach (Egg egg in eggs)
-            {
-                Console.WriteLine(egg.Description);
-            }
+           // Egg[] eggs = bird.LayEggs(numberOfEggs);
+            //foreach (Egg egg in eggs)
+            //{
+             //   Console.WriteLine(egg.Description);
+            //}
         
         }
     }
