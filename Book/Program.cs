@@ -19,7 +19,9 @@ internal class Program
     static void Main(string[] args)
     {
 
-        LumberJacks();
+        LinqComics();
+
+        //LumberJacks();
 
        // KolodaCards();
 
@@ -43,6 +45,28 @@ internal class Program
         // TestDraive(); 
         // Elephants();
 
+    }
+
+    public static void LinqComics()
+    {
+        AddSubtract a = new AddSubtract() { Value = 5 }
+            .Add(5)
+            .Subtract(3)
+            .Add(9)
+            .Subtract(12);
+        Console.WriteLine($"Result: {a.Value}");
+
+        Console.WriteLine("---------");
+
+        IEnumerable<Comic> mostExpensive =
+            from comic in Comic.Catalog
+            where Comic.Prices[comic.Issue] > 50
+            orderby Comic.Prices[comic.Issue]
+            select comic;
+        foreach (Comic comic in mostExpensive)
+        {
+            Console.WriteLine($"{comic}");
+        }
     }
 
     public static void LumberJacks()

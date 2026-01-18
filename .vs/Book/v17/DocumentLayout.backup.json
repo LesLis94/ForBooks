@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\NetProject\\ForBooks\\",
+  "WorkspaceRootPath": "D:\\forBook\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\netproject\\forbooks\\book\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\forbook\\book\\classes\\comic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\comic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\netproject\\forbooks\\book\\classes\\lumberjack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\classes\\lumberjack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|d:\\forbook\\book\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57C7D881-33A3-4943-BD2A-BE80F9F07CA4}|Book\\Book.csproj|solutionrelative:book\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,8 +18,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
@@ -34,26 +42,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Lumberjack.cs",
-              "DocumentMoniker": "D:\\NetProject\\ForBooks\\Book\\Classes\\Lumberjack.cs",
-              "RelativeDocumentMoniker": "Book\\Classes\\Lumberjack.cs",
-              "ToolTip": "D:\\NetProject\\ForBooks\\Book\\Classes\\Lumberjack.cs",
-              "RelativeToolTip": "Book\\Classes\\Lumberjack.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Comic.cs",
+              "DocumentMoniker": "D:\\forBook\\Book\\Classes\\Comic.cs",
+              "RelativeDocumentMoniker": "Book\\Classes\\Comic.cs",
+              "ToolTip": "D:\\forBook\\Book\\Classes\\Comic.cs",
+              "RelativeToolTip": "Book\\Classes\\Comic.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAASwB0AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T11:17:32.333Z",
+              "WhenOpened": "2026-01-18T17:19:54.495Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\NetProject\\ForBooks\\Book\\Program.cs",
+              "DocumentMoniker": "D:\\forBook\\Book\\Program.cs",
               "RelativeDocumentMoniker": "Book\\Program.cs",
-              "ToolTip": "D:\\NetProject\\ForBooks\\Book\\Program.cs*",
-              "RelativeToolTip": "Book\\Program.cs*",
-              "ViewState": "AgIAACsAAAAAAAAAAAAgwEIAAAAeAAAAAAAAAA==",
+              "ToolTip": "D:\\forBook\\Book\\Program.cs",
+              "RelativeToolTip": "Book\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAkwEQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-05T13:28:09.98Z",
               "EditorCaption": ""
